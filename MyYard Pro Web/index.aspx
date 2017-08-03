@@ -4,7 +4,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <!-- Carousel -->
-    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel" data-interval="8000">
+    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" >
