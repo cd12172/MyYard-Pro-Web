@@ -1,13 +1,13 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="/akshara.master" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="preview_dotnet_templates_akshara_multi_master_index" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/akshara.master" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="preview_dotnet_templates_akshara_multi_master_index" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
     <!-- Carousel -->
-    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carousel-example-generic" class="carousel slide carousel-fade" data-ride="carousel" data-interval="10000">
 
         <!-- Wrapper for slides -->
-        <div class="carousel-inner">
+        <div class="carousel-inner" >
             <div class="item active one">
                 <!-- <img src="#" alt="" /> -->
                 <div class="main-text hidden-xs">
@@ -50,7 +50,7 @@
         <!-- Controls -->
         <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span></a><a class="right carousel-control"
-                href="#carousel-example-generic" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right">
+                href="#carousel-example-generic"  role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right">
                 </span></a>
     </div>
     <!-- Carousel -->
